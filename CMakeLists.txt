@@ -5,7 +5,7 @@ find_package(catkin REQUIRED COMPONENTS
   image_transport roscpp cv_bridge sensor_msgs nodelet camera_info_manager roslint)
 
 find_package(OpenCV REQUIRED
-             PATHS /usr/local
+             PATHS /usr
              NO_DEFAULT_PATH
 )
 
